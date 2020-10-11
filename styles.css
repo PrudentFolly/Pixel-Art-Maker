@@ -22,3 +22,7 @@ table {
   border-collapse: collapse;
   margin: 0 auto;
 }
+
+tr {
+  height: 20px;
+}
