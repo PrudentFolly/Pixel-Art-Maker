@@ -3,3 +3,9 @@ body {
   font-family: Georgia;
   background-color: #42f5b6;
 }
+
+h1 {
+  font-family: 'Sansita Swashed';
+  font-size: 70px;
+  margin: 0.2em;
+}
