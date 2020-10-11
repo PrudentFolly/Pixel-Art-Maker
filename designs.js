@@ -19,6 +19,8 @@ function makeGrid() {
       // Create blank cell
       const CELL = document.createElement('td');
       CELL.style.backgroundColor='white';
+      // When a cell is clicked, call changeColor()
+      CELL.addEventListener('click', changeColor);
       // Append cell to table row
       ROW.appendChild(CELL);
     }
