@@ -26,3 +26,8 @@ table {
 tr {
   height: 20px;
 }
+
+td {
+  width: 20px;
+  border: 1px solid black;
+}
