@@ -18,12 +18,13 @@ function makeGrid() {
     for(let i = 0; i < Number(SIZE_INPUT[1].value); i++){
       // Create blank cell
       const CELL = document.createElement('td');
+      CELL.style.backgroundColor='white';
       // Append cell to table row
       ROW.appendChild(CELL);
     }
     // Append table row to table
     document.querySelector('table').appendChild(ROW);
   }
-  // Prevent default behavior on submit event (was causing issues)
+  // Prevent default behavior on submit event
   event.preventDefault();
 }
