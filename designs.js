@@ -28,3 +28,8 @@ function makeGrid() {
   // Prevent default behavior on submit event
   event.preventDefault();
 }
+// This function changes the color of clicked cells
+function changeColor(event) {
+  // Change the background-color property of the event target
+  event.currentTarget.style.backgroundColor=COLOR_INPUT.value;
+}
