@@ -6,6 +6,10 @@ const SIZE_INPUT = document.querySelectorAll('input[type=number]');
 document.querySelector('form').addEventListener('submit', makeGrid);
 // This function dynamically creates a grid, and clears existing ones
 function makeGrid() {
+  // When there is a pre-existent grid, this while-loop will clear it
+  while(document.querySelector('tr')){
+    document.querySelector('tr').remove();
+  };
   // Create grid using size input for dimensions
   for(let i = 0; i < Number(SIZE_INPUT[0].value); i++){
     // Create table row
