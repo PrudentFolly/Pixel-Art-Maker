@@ -1,5 +1,5 @@
 # Pixel-Art-Maker
-A simple interactive document that utilizes JavaScript, HTML, and CSS to allow users to create a canvas and fill it with pixel art.
+A simple interactive page that utilizes JavaScript, HTML, and CSS to allow users to create a canvas and fill it with pixel art.
 # Getting Started
 Simply download the project files and open the index.html file with your preferred browser to use the pixel art maker.
 # Usage
